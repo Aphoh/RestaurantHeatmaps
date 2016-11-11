@@ -1,0 +1,12 @@
+fastkml==0.11
+oauthlib==1.1.2
+pygeoif==0.6
+python-dateutil==2.5.3
+requests==2.11.1
+requests-oauthlib==0.6.2
+Rx==1.1.0
+Shapely==1.5.16
+six==1.10.0
+unicodecsv==0.14.1
+Unidecode==0.4.19
+xlrd==1.0.0
