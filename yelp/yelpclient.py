@@ -112,6 +112,5 @@ def page_restaurants(lat, lng, limit=50, offset=0, threshold=1000):
     if offset + 50 >= threshold:
         return req.json()["businesses"]
     else:
-        time.sleep(2)
         return req.json()["businesses"] + page_restaurants(lat, lng, limit=50, offset=offset + 50)
 
